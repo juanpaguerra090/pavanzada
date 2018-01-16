@@ -11,5 +11,5 @@ return [0, 1].
 ```
 
 #### Breakdown:
-[embed]https://github.com/juanpaguerra090/pavanzada/blob/master/katas/kata0/Kata0.pdf[/embed]
+https://github.com/juanpaguerra090/pavanzada/blob/master/katas/kata0/Kata0.pdf
 
