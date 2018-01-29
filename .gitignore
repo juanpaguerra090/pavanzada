@@ -1,3 +1,6 @@
 *.exe
 */.DS_Store
 katas/kata0/.DS_Store
+.vscode/settings.json
+practicas/P0/.DS_Store
+.vscode/settings.json
