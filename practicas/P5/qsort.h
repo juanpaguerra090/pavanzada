@@ -1,4 +1,7 @@
 typedef struct s{
     int id;
     char *name;
-}Student
+} Student;
+
+void sortById(Student *, int numElements);
+void sortByName(Student *, int numElements);
