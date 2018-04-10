@@ -19,6 +19,7 @@ int main(){
     char word[255];
     long searchPos = 0;
     input = fopen(filename, "r"); //Abrir en modo de lectura
+    int character;
     while (1){
         fscanf(input, "%s", word);
         if(feof(input)){
@@ -34,6 +35,15 @@ int main(){
                 character = fgetc(input);
                 fputc(character, stdout);
             }
+        } 
+        fputs(replace, stdout);
+        fseek(input, sizeof(word), SEEK_CUR );
+        while(1){
+            character = fgetc(input);
+            if(feof(input)){
+                break;
+            }
+            fputc(character, stdout);
         }
     }
     return 0;
