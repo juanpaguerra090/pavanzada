@@ -1,5 +1,6 @@
 *.exe
 *.o
+*.out
 */.DS_Store
 katas/kata0/.DS_Store
 .vscode/settings.json
@@ -9,3 +10,7 @@ tools
 practicas/P1/.DS_Store
 katas/kata2/.DS_Store
 practicas/P3/main
+katas/kata5/.DS_Store
+.DS_Store
+practicas/P6/hash.o
+practicas/P6/hashtest.o

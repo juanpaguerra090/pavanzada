@@ -8,3 +8,4 @@ read:
 update:
 	gcc -o update.exe update.c
 	./update.exe name2 juanito
+	

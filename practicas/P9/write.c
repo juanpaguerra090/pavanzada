@@ -6,6 +6,7 @@ typedef struct s{
     char lastName[20];
     short id;
     char semester[3];
+    char free;
 } Student;
 
 int main(){
@@ -17,6 +18,7 @@ int main(){
         sprintf(pAvanzada[i].lastName, "lastName%i", i);
         pAvanzada[i].id = i;
         sprintf(pAvanzada[i].semester, "S%i", 8);
+        pAvanzada[i].free = 1;
     }
 
     FILE *data = fopen(dbName, "wb");

@@ -6,6 +6,7 @@ typedef struct s{
     char lastName[20];
     short id;
     char semester[3];
+    char free;
 } Student;
 
 int main(int argc, char **argv){
@@ -22,6 +23,7 @@ int main(int argc, char **argv){
             break;
         }
         if(!strcmp(myStudent.firstName, search)){
+            myStudent.free = 1;
             strcpy(myStudent.firstName, update);
             fseek(data, -1 * sizeof(Student) , SEEK_CUR);
             fwrite(&myStudent, sizeof(Student), 1, data);
