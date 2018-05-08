@@ -14,3 +14,4 @@ katas/kata5/.DS_Store
 .DS_Store
 practicas/P6/hash.o
 practicas/P6/hashtest.o
+.vscode/launch.json
